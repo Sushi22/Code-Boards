@@ -1,0 +1,25 @@
+body {
+    background-image: url(../img/email-pattern.png);
+  }
+  
+  .logo {
+    font-family: 'Turret Road', cursive;
+  }
+  
+  .logo a {
+    color:black;
+  }
+  
+  .logo a:hover,
+  .logo a:active {
+    text-decoration: none;
+  }
+
+  .work  {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+  }
+
+  .work a{
+    color:whitesmoke;
+  }
