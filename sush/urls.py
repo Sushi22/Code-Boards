@@ -31,10 +31,10 @@ urlpatterns = [
     re_path(r'^boards/(?P<pk>\d+)/$',views.board_topics,name='board_topics'),
     re_path(r'^boards/(?P<pk>\d+)/new/$',views.new_topic,name='new_topic'),
     url(r'^boards/(?P<pk>\d+)/topics/(?P<topic_pk>\d+)/$', views.topic_posts, name='topic_posts'),
-    re_path(r'^reset/$',auth_views.PasswordResetView.as_view
-                                                (template_name='password_reset.html',
-                                                email_template_name='password_reset_email',
-                                                subject_template_name='password_reset.txt'),name='password_reset'),
+    re_path(r'^reset/$',auth_views.PasswordResetView.as_view(template_name='password_reset.html',
+                                                            email_template_name='password_reset_email.html',
+                                                            subject_template_name='password_reset.txt'),
+                                                            name='password_reset'),
 
     url(r'^reset/done/$',auth_views.PasswordResetDoneView.as_view(template_name='password_reset_done.html'),name='password_reset_done'),
 
