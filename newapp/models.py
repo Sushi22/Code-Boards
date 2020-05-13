@@ -1,6 +1,7 @@
 from django.db import models
 from django.db.models import Count
 from django.contrib.auth.models import User
+from django.utils.text import Truncator
 
 class Boards(models.Model):
     name=models.CharField(max_length=50, unique=True)
