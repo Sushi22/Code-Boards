@@ -1,1 +1,1 @@
-web: gunicorn <sush>.wsgi --log-file -
+web: gunicorn sush.wsgi --log-file -
