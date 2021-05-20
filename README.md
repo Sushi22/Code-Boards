@@ -7,6 +7,6 @@ An authenticated user can :-
 and some other features like account settings etc.
 
 # Tech-Stack:
-1.Django(Python)
-2.HTML
+1.Django(Python)<br>
+2.HTML<br>
 3.JavaScript
